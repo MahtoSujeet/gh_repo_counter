@@ -1,8 +1,8 @@
 from gh_helper import Bot
 from time import sleep
 
-USERNAME = "sujeetgh"
-# USERNAME = "Amit-kharod"
+# USERNAME = "sujeetgh"
+USERNAME = "Amit-kharod"
 
 def main():
 
