@@ -32,7 +32,7 @@ Current repos list:
 """ + str(repos)
            )
 
-        sleep(10)
+        sleep(15*60) # 15 minutes
 
 if __name__ == "__main__":
     main()
