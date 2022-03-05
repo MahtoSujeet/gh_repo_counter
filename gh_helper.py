@@ -1,10 +1,11 @@
 import requests
+import os
 
 class Bot:
 
     def __init__(self) -> None:
-        self.chat_id = -1001576544273
-        self.bot_token = "2122536868:AAGkEQAr6w5EU0tUZXbCaxVXK9zXd0vxD-k"
+        self.chat_id = os.getenv("chat_id")
+        self.bot_token = os.getenv("bot_token")
 
     def fetch_repos(self, username):
         res = requests.get(f"https://api.github.com/users/{username}/repos")
