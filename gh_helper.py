@@ -2,6 +2,7 @@ import requests
 import os
 
 class Bot:
+    """API to fetch data from github."""
 
     def __init__(self) -> None:
         self.chat_id = os.getenv("chat_id")
